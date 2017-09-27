@@ -7,7 +7,8 @@ class Organizer extends Attendee{
     }
 
     void beginSession() {
-        System.out.println("Hello everyone, my name is " + myname + ".");
-        System.out.println("Would anyone like to start us off with introductions?\n");
+        System.out.println("Hello everyone, my name is " + myname + ". I'll be the organizer of this session.");
+        System.out.println("Would anyone like to start us off with introductions?" +
+                " Just state your name and why you're here.\n");
     }
 }
