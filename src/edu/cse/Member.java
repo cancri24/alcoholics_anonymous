@@ -1,8 +1,12 @@
 package edu.cse;
 
-public class Member {
-    String name;
+class Member extends Attendee {
+
+    Member(String name) {
+        super(name);
+    }
+
     void introduce() {
-        System.out.println("My name is " + name + ", and I'm an alcoholic.");
+        System.out.println("My name is " + myname + ", and I'm an alcoholic.");
     }
 }

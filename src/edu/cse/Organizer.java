@@ -1,14 +1,13 @@
 package edu.cse;
 
-public class Organizer {
-    String name;
+class Organizer extends Attendee{
 
-    void beginSession() {
-        System.out.println("Hello everyone, my name is " + name + ".");
-        System.out.println("Would anyone like to start us off with introductions?\n");
+    Organizer(String name) {
+        super(name);
     }
 
-    void react() {
-
+    void beginSession() {
+        System.out.println("Hello everyone, my name is " + myname + ".");
+        System.out.println("Would anyone like to start us off with introductions?\n");
     }
 }
