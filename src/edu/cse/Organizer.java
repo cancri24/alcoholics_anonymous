@@ -1,6 +1,6 @@
 package edu.cse;
 
-public class Organizer {
+class Organizer extends Attendee {
     String name;
 
     void beginSession() {

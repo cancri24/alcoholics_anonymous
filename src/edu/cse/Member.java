@@ -1,6 +1,6 @@
 package edu.cse;
 
-public class Member {
+class Member extends Attendee{
     String name;
     void introduce() {
         System.out.println("My name is " + name + ", and I'm an alcoholic.");

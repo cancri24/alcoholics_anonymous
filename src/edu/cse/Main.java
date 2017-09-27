@@ -2,6 +2,7 @@ package edu.cse;
 
 public class Main {
     public static void main(String args[]) {
+        System.out.println();
         Organizer john = new Organizer();
         john.name = "John";
         Member[] alcoholics = new Member[5];
